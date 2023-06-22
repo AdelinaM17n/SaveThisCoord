@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "savecoord",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "SaveThisCord",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Maheesha"
+    "Maheesha Adelina"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/MaheEvil/Fabric-Example-Mod-Parchment-QF"
+    "homepage": "",
+    "sources": "https://github.com/MaheEvil/SaveThisCoord"
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPL-3.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.maheevil.example.ExampleMod"
+      "io.github.maheevil.savecoord.SaveThisCoordMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "savecoord.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.12.9",
-    "minecraft": "1.19.4",
+    "minecraft": ">=1.20",
     "java": ">=17"
   },
   "suggests": {
